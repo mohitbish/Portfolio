@@ -14,3 +14,14 @@ Using git pages
 
     to deploy on github 
         npm run deploy
+
+
+ Update index.js for correct url
+    ReactDOM.render(
+        <React.StrictMode>
+        <HashRouter>
+            <App />
+        </HashRouter>
+        </React.StrictMode>,
+        document.getElementById('root')
+    );       
