@@ -29,7 +29,7 @@
     font-size: 28px;
   }
   .prompt svg {
-    font-size: 60px;
+    font-size: 40px;
     margin: 5px;
     color: white;
   }
@@ -52,7 +52,7 @@
     width: 90%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     vertical-align: top;
   }
@@ -64,23 +64,27 @@
   }
   
 
-  .item .innerlist{
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    vertical-align: top;
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .about h2 {
       font-size: 40px;
     }
+    
   
     .about .prompt {
       margin-top: 10px;
-      font-size: 20px;
+      font-size: 15px;
       width: 80%;
     }
   
@@ -93,5 +97,10 @@
   
     .skills h2 {
       font-size: 30px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
     }
   }

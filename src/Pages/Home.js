@@ -24,36 +24,36 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2> 
-              <ul className='innerlist'>
-                <l1>ReactJS</l1>
-                <l1>Angular</l1>
-                <l1>HTML</l1>
-                <l1>CSS</l1>
-                <l1>NPM</l1>
-                <l1>Jquery</l1>
-                <l1>BootStrap</l1>
-              </ul>
+            <div class="grid-container">
+              <div class="grid-item">ReactJS</div>
+              <div class="grid-item">Angular</div>
+              <div class="grid-item">HTML</div>
+              <div class="grid-item">Css</div>
+              <div class="grid-item">Jquery</div>
+              <div class="grid-item">Bootstrap</div>
+            </div>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <ul  className='innerlist'>
-                <l1>NodeJS</l1>
-                <l1>Laravel</l1>
-                <l1>MySQL</l1>
-                <l1>MongoDB</l1>
-                <l1>PHP</l1>
-              </ul>
+            <div class="grid-container">
+              <div class="grid-item">NodeJS</div>
+              <div class="grid-item">Laravel</div>
+              <div class="grid-item">MySQL</div>
+              <div class="grid-item">MongoDB</div>
+              <div class="grid-item">PHP</div>
+            </div>
+            
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <ul  className='innerlist'>
-                <l1>JavaScript</l1>
-                <l1>Swift</l1>
-                <l1>Java</l1>
-                <l1>Python</l1>
-                <l1>TypeScript</l1>
-                <l1> C++</l1>
-              </ul>
+            <div class="grid-container">
+              <div class="grid-item">JavaScript</div>
+              <div class="grid-item">Swift</div>
+              <div class="grid-item">Python</div>
+              <div class="grid-item">TypeScript</div>
+              <div class="grid-item">Java</div>
+              <div class="grid-item">C++</div>
+            </div>
           </li>
         </ol>
       </div>
