@@ -28,19 +28,16 @@ function Home() {
               <div class="grid-item">ReactJS</div>
               <div class="grid-item">Angular</div>
               <div class="grid-item">HTML</div>
-              <div class="grid-item">Css</div>
-              <div class="grid-item">Jquery</div>
-              <div class="grid-item">Bootstrap</div>
+              <div class="grid-item">CSS</div>
+              <div class="grid-item">Tailwind CSS</div>
             </div>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <div class="grid-container">
               <div class="grid-item">NodeJS</div>
-              <div class="grid-item">Laravel</div>
-              <div class="grid-item">MySQL</div>
+              <div class="grid-item">Express</div>
               <div class="grid-item">MongoDB</div>
-              <div class="grid-item">PHP</div>
             </div>
             
           </li>
@@ -49,7 +46,6 @@ function Home() {
             <div class="grid-container">
               <div class="grid-item">JavaScript</div>
               <div class="grid-item">Swift</div>
-              <div class="grid-item">Python</div>
               <div class="grid-item">TypeScript</div>
               <div class="grid-item">Java</div>
               <div class="grid-item">C++</div>
